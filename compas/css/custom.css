@@ -1,0 +1,42 @@
+.header-wrap,
+.header-nav,
+.header-contacts{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.header {
+    width: 100vw;
+    background: #2d596e;
+}
+
+.header-wrap {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.header-nav__item-title {
+    padding: 5px 10px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.header-nav__item-title :hover {
+    border-bottom: 2px solid #de070d;
+}
+
+.header-contacts {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.header-phone__city-code {
+    white-space: nowrap;
+}
