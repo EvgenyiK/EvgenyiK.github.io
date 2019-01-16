@@ -1,0 +1,429 @@
+@import "fonts"
+@import "libs"
+@import "base"
+@import "vars"
+
+.grid
+  display: grid
+
+.container
+  width: 80%
+  margin: 0 auto
+
+
+.mine-header
+  min-height: 100vh
+  background-size: cover
+  background-position: center
+  position: relative
+  color: $accent
+  z-index: 1
+  .nav-menu
+   grid-template-columns: repeat(2,auto )
+   z-index: 3
+   position: relative
+   top: -950px
+   .menu
+     grid-template-columns: repeat(4, auto)
+     justify-items: end
+     grid-gap: 10px
+     position: relative
+     list-style-type: none
+     a
+       text-decoration: none
+       &:nth-child(1)
+         color: white
+       &:hover
+         color: #c9c6bf
+     .btn
+       &:hover
+         background-color: #918f89
+         color: white
+       &:active
+         background-color: black
+
+.bg-img
+  z-index: 2
+  position: relative
+
+
+.header_title
+  justify-items: end
+  top: -920px
+  position: relative
+  z-index: 3
+  grid-template-columns: auto
+  .title_one
+    color: white
+    font-weight: lighter
+    font-size: 30px
+    margin-bottom: 30px
+  h1
+    font-size: 50px
+    color: white
+    margin-bottom: 60px
+    &::before
+      content: ''
+      height: 10px
+      width: 80px
+      background-color: #ffca2a
+      display: block
+      margin-bottom: -45px
+      margin-left: -90px
+      border-radius: 4px
+    &::after
+      content: ''
+      height: 10px
+      width: 40px
+      background-color: #5f94ff
+      display: block
+      margin-top: -40px
+      margin-left: 180px
+      position: relative
+      border-radius: 4px
+
+  p
+    color: #c9c6bf
+    font-size: 14px
+    margin-top: 34px
+.right_img
+  padding-top: 150px
+  display: block
+  position: relative
+  margin-right: -15%
+
+
+
+.subscription
+  margin-top: -1310px
+  text-align: center
+  margin-bottom: 140px
+  .subscription_title
+    font-weight: bold
+    font-size: 50px
+    margin-bottom: 33px
+    &:before
+      content: ''
+      height: 10px
+      width: 40px
+      background-color: #ff4b64
+      display: block
+      border-radius: 4px
+      margin-left: 43%
+      margin-bottom: 80px
+      position: relative
+    &:after
+      content: ''
+      height: 10px
+      width: 80px
+      background-color: #5f94ff
+      display: block
+      margin-left: 50%
+      margin-top: -172px
+      border-radius: 4px
+  .subscription_info
+    margin-top: 130px
+    font-size: 20px
+    font-weight: normal
+    color: #918f89
+    margin-bottom: 85px
+  .subscription_menu
+    display: block
+    width: 400px
+    margin: 0 auto
+    overflow: hidden
+    margin-bottom: 85px
+    .menu-item
+     display: grid
+     grid-template-columns: repeat(5, auto)
+     padding: 0
+     position: relative
+     left: 0
+     transition: all ease 1s
+     .menu-punkt
+       list-style-type: none
+       margin-right:  40px
+  .positions
+    grid-template-columns: repeat(3, auto)
+    font-size: 17px
+
+    .positions_one
+      list-style-type: none
+      padding: 0
+      li
+        display: flex
+        flex-direction: row
+        justify-content: start
+        img
+          height: 20px
+          width: 15px
+        p
+          margin: 0 0 40px 15px
+  .center
+    margin: 0 auto
+    width: 290px
+    font-size: 14px
+    background-color: #5f94ff
+    color: white
+    &:hover
+      background-color: #918f89
+    &:active
+      background-color: black
+      color: white
+  .mid
+    color: #c1bfbc
+    margin: 28px 0 0 0
+.brave
+  .left_img
+    display: block
+    position: relative
+    width: 321px
+    height: 361px
+    top: -220px
+  .brave_title
+    font-size: 30px
+    color: white
+    top: -190px
+    position: relative
+    h3
+      font-weight: normal
+      line-height: 1.15em
+      margin-bottom: 60px
+      margin-top: 0
+      &:before
+       content: ''
+       height: 10px
+       width: 80px
+       background-color: #ff4b64
+       display: block
+       border-radius: 4px
+       position: relative
+       left: -100px
+       bottom: -80px
+
+    .brave_podz
+      font-size: 14px
+      font-weight: 600
+      margin: 0
+      margin-bottom: 46px
+      &:after
+        content: ''
+        height: 10px
+        width: 40px
+        background-color: #ffca2a
+        display: block
+        border-radius: 4px
+        position: relative
+        bottom: -80px
+        right: -235px
+    .brave_btn
+      font-size: 14px
+      color: #9ecb45
+      &:hover
+        color: white
+.discover
+  margin-top: 130px
+  text-align: center
+  position: relative
+  .discover_title
+    font-weight: bold
+    font-size: 50px
+    margin-bottom: 33px
+    &:before
+      content: ''
+      height: 10px
+      width: 40px
+      background-color: #ff4b64
+      display: block
+      border-radius: 4px
+      margin-left: 43%
+      margin-bottom: 80px
+      position: relative
+    &:after
+      content: ''
+      height: 10px
+      width: 80px
+      background-color: #5f94ff
+      display: block
+      margin-left: 50%
+      margin-top: -172px
+      border-radius: 4px
+  .discover_info
+    margin-top: 170px
+    font-size: 20px
+    font-weight: normal
+    color: #918f89
+    margin-bottom: 85px
+  .navigation
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    padding:  0
+    li
+      list-style-type: none
+      padding: 40px 80px
+      &:hover
+        background-color: #f4f7ff
+      &:active
+        background-color: black
+  .discover_img
+    position: absolute
+    top: 480px
+    right: 200px
+
+.slider
+  margin-top: 170px
+  #slides
+    position: relative
+    height: 300px
+    padding: 0
+    margin: 0
+    left: 950px
+    top: 150px
+    list-style-type: none
+    width: 20%
+    .slide
+      position: absolute
+      left: 0
+      top: 0
+      width: 100%
+      height: 100%
+      opacity: 0
+      z-index: 1
+      transition: opacity 1s
+    .showing
+      opacity: 1
+      z-index: 2
+  .video
+     position: relative
+     bottom: 170px
+     left: 130px
+  .info
+    visibility: hidden
+.watch
+  margin-top: 120px
+  text-align: center
+  .watch_block
+    display: flex
+    justify-content: center
+    .watch_content
+      margin-left: 50px
+      h4
+        font-weight: bold
+        font-size: 35px
+        margin: 0
+        text-align: start
+        &:after
+          content: ''
+          height: 10px
+          width: 80px
+          background-color: #fb4a62
+          display: block
+          margin-left: 80%
+          margin-top: -9%
+          border-radius: 4px
+      p
+        color: #b9b7b2
+        margin: 30px 0 0
+        text-align: start
+        &:after
+          content: ''
+          height: 10px
+          width: 40px
+          background-color: #ffca2a
+          display: block
+          border-radius: 4px
+          margin-top: 30px
+    .watch_img
+      width: 150px
+      height: 114px
+  .watch_btn
+    margin: 170px 0 30px 0
+    background-color: #9ecb45
+    width: 250px
+    color: white
+    &:hover
+      background-color: #918f89
+    &:active
+      background-color: black
+  .bot
+    color: #c1bfbc
+    margin: 0
+footer
+  margin-top: 150px
+  padding-top: 120px
+  .footer_img
+    position: absolute
+    top: 4300px
+  .footer_menu
+    display: flex
+    justify-content: flex-end
+    margin: 0
+    color: #ffb4bc
+    a
+      text-decoration: none
+      margin: 25px
+      color: #ffb4bc
+      &:hover
+        color: white
+  .fot_logo
+    margin: 50px auto 30px
+    display: flex
+  .license
+    color: #ffb4bc
+    font-size: 12px
+    font-weight: lighter
+    display: flex
+    justify-content: center
+
+
+.modal
+  display: none
+  width: 600px
+  max-width: 100%
+  height: 400px
+  max-height: 100%
+  position: fixed
+  z-index: 100
+  left: 50%
+  top: 50%
+  transform: translate(-50%, -50%)
+  background: white
+  box-shadow: 0 0 60px 10px rgba(0, 0, 0, 0.9)
+  .modal-guts
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    overflow: auto
+    padding: 20px 50px 20px 20px
+  .close-button
+    position: absolute
+    z-index: 1
+    top: 10px
+    right: 20px
+    border: 0
+    background: black
+    color: white
+    padding: 5px 10px
+    font-size: 1.3rem
+
+.modal-overlay
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  z-index: 50
+  background: rgba(0, 0, 0, 0.6)
+  display: none
+
+.closed
+  display: flex
+
+
+
+
+
+@import "media" // Всегда в конце
