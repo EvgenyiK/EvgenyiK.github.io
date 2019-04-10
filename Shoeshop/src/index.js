@@ -12,5 +12,4 @@ import './css/main.css'
 
 // import 'vue'
 // import Vue from 'vue'
-import 'jquery'
-import $ from "jquery";
+window.$ =require('jquery')

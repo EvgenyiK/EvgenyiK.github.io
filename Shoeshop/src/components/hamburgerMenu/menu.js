@@ -1,7 +1,6 @@
 
 'use strict';
 
-
 $(function () {
     var width = 200,
         height = 44*4+20,

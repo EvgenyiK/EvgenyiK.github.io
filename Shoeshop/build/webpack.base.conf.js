@@ -3,13 +3,14 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const webpack = require('webpack')
-const $ = require('jquery')
+const $ = require("jquery");
 
 
 
 
 
-const PATHS = {
+
+var PATHS = {
   src: path.join(__dirname, '../src'),
   dist: path.join(__dirname, '../dist'),
   assets: 'assets/'
@@ -75,13 +76,6 @@ module.exports = {
   },
 
 
-  resolve: {
-    alias: {
-      jquery: "jquery/dist/jquery",
-      $: "jquery/dist/jquery",
-    },
-  },
-
   plugins: [
     new MiniCssExtractPlugin({
       filename: `${PATHS.assets}css/[name].css`,
@@ -92,12 +86,11 @@ module.exports = {
       template: `${PATHS.src}/index.pug`,
       filename: 'index.html'
     }),
-      new webpack.ProvidePlugin({
-          'window.jQuery'    : 'jquery',
-          'window.$'         : 'jquery',
-          'jQuery'           : 'jquery',
-          '$'                : 'jquery'
-      }),
+    new webpack.ProvidePlugin({
+      $: "jquery/dist/jquery.min.js",
+      jQuery: "jquery/dist/jquery.min.js",
+      "window.jQuery": "jquery/dist/jquery.min.js",
+    }),
     new CopyWebpackPlugin([
       { from: `${PATHS.src}/img`, to: `${PATHS.assets}img` },
       { from: `${PATHS.src}/static`, to: '' },
