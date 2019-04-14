@@ -1,2 +1,32 @@
+header{
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: repeat(2,1fr) ;
+  padding: 60px 30px 38px 100px;
+}
+.content-left{
+  .logo{
+    margin-bottom: 92px;
+  }
+  .title-img{
+    margin-bottom: 30px;
+  }
+  .btn{
+    margin-left: 7%;
 
-
+  }
+  .left-text{
+    width: 268px;
+    transform: rotate(-90deg);
+    margin-top: 45%;
+    margin-left: -20%;
+  }
+}
+.content-right{
+  display: flex;
+  justify-content: flex-end;
+  .social{
+    bottom: 0;
+    margin-top: 600px;
+  }
+}

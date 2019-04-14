@@ -1,1 +1,49 @@
-// footer style
+footer{
+  padding: 0 170px;
+  display: flex;
+  .footer-navigation{
+    a{color: $mainFontColor;
+      &:hover{color: #82f4d3;};font-size: 12px;
+        }
+    display: flex;
+    nav{
+      justify-content: flex-start;
+      margin-left: 90px;
+    }
+    form.form-wrapper{
+      input#search{
+        width: 200px;
+        padding: 10px;
+        margin-right: 5px;
+        box-shadow: 2px 3px 19px 1px rgba(231,231,231,0.75);
+        border: 0;
+        outline: none;
+        color: #dddddd;
+        opacity: 0.5;
+      }
+      input#submit{
+        background-color: #82f4d3;
+        cursor: pointer;
+        width: 120px;
+        padding: 10px 0;
+        text-decoration: none;
+        font-weight: bold;
+      }
+    }
+    .nav-social{
+      display: flex;
+      margin-top: 20px;
+     a{width: 17px;
+       margin-right: 25px;
+     height: 17px;}
+     a:hover{path{fill: #82f4d3;}}
+    }
+  }
+
+
+
+
+
+
+
+}

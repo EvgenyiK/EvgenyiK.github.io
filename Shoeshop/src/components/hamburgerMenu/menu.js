@@ -2,8 +2,8 @@
 'use strict';
 
 $(function () {
-    var width = 200,
-        height = 44*4+20,
+    var width = 500,
+        height = 300,
         speed = 300,
         button = $('#menu-button'),
         overlay = $('#overlay'),

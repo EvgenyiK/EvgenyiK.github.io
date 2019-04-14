@@ -1,1 +1,17 @@
-// Fonts here
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url("/src/fonts/Poppins-Regular.svg");
+  src: url("/src/fonts/Poppins-Regular.ttf");
+  /*src: url("/src/fonts/Poppins-Regular.woff");*/
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CormorantGaramond-Medium';
+  src: url("/src/fonts/CormorantGaramond-Medium.svg");
+  src: url("/src/fonts/CormorantGaramond-Medium.ttf");
+  /*src: url("/src/fonts/CormorantGaramond-Medium.woff");*/
+  font-weight: 500;
+  font-style: normal;
+}
+/* теперь не будет ошибки, но и не будет запроса шрифтов в формате .woff*/

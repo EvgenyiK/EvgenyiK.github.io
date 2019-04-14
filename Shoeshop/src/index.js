@@ -13,3 +13,4 @@ import './css/main.css'
 // import 'vue'
 // import Vue from 'vue'
 window.$ =require('jquery')
+import 'slick-carousel'

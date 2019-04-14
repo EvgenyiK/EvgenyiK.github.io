@@ -1,11 +1,109 @@
-// .wrapper_example {
-//   display: flex;
-//   h1 {
-//     font-size: rem(20)
-//   }
-// }
+section#wrapper{
+  padding: 85px;
+  .air-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 50px;
+    .air-one{
+      img{box-shadow: 0 0 10px rgba(0,0,0,0.2);}
+    }
+    .air-two{
+       .title-content{
+         width: 500px;
+         margin-top: 145px;
+         margin-left: -85px;
+         h2{margin-bottom: 30px;}
+         button{
+           margin-top: 30px;
+           margin-left: 380px;
+         }
+       }
+    }
+  }
+  #popular{
+    padding: 0 90px;
+    h2{
+      margin-bottom: 47px;
+    }
+  }
+  #collections{
+    margin-top: 100px;
+    padding: 0 90px;
+    display: grid;
+    grid-column-gap: 100px;
+    grid-template-columns: repeat(2,1fr);
+    .collections-left{
+         .title-content{
+           margin-top: 110px;
+           h2 {margin-bottom: 38px;}
+           button{margin-top: 47px;}
+         }
+    }
+    .collections-right{
+      display: flex;
+      .girl{
+        z-index: 2;
+        width: 376px;
+        height: 398px;
+        margin-right: -140px;
+        margin-top: 40px;
+      }
+      .rect{
+        margin-top: 200px;
+        z-index: 1;
+        width: 235px;
+        height: 311px;
+        opacity: 0.72;
+        background-image: linear-gradient(-24.0deg, #65e0bc 5%, #c9f9eb 94%);
+      }
+    }
+  }
+}
+#wethought  {
+  position: relative;
+  text-align: center;
+  margin-top: 80px;
+  padding: 80px 0;
+  background-color:  #f8f8f8;
+  .thought{
+    width: 667px;
+    margin: 28px auto;
+  }
+  .designer{color: #51cda9;}
+  .name{color: #666666;}
+  .left-element{
+    position: absolute;
+    left: 10%;
+    top: 40%;
+  }
+  .right-element{
+    position: absolute;
+    right: 10%;
+    top: 40%;
+  }
+}
+#blog{
+  padding: 80px 170px 80px 240px;
+  h2{text-align: center;margin-bottom: 65px;}
+  .title-content{
+    position: relative;
+    width: 425px;
+    z-index: 2;
+    margin-top: -400px;
+    margin-left: 450px;
+    h2{text-align: start;font-size: 24px;
+    margin-bottom: 20px;}
+    p{width: 425px;margin-bottom: 70px;}
+    button{position: absolute;right: 0;}
+  }
+  .rect{
+    margin-top: -40px;
+    margin-left: 250px;
+    width: 235px;
+    height: 311px;
+    opacity: 0.72;
+    background-image: linear-gradient(-24.0deg, #65e0bc 5%, #c9f9eb 94%);
+    z-index: -1;
+  }
+}
 
-// #main {
-//   background-image: url('/assets/img/dogsad.jpg');
-//   width: 100%;
-// }
