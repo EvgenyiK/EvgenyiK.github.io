@@ -1,5 +1,5 @@
 
-'use strict';
+import $ from 'jquery'
 
 $(function () {
     var width = 500,
