@@ -1,0 +1,19 @@
+<svg id="Fb" xmlns="http://www.w3.org/2000/svg" width="42.03" height="42.031" viewBox="0 0 42.03 42.031">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #151515;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path id="Afgeronde_rechthoek_1_kopiëren_2" data-name="Afgeronde rechthoek 1 kopiëren 2" class="cls-1" d="M1224.77,598.131h0.05a21.005,21.005,0,0,1,0,42.01h-0.05A21.005,21.005,0,0,1,1224.77,598.131Z" transform="translate(-1203.78 -598.125)"/>
+  <path id="fa-facebook" class="cls-2" d="M1226.73,609.082a4.673,4.673,0,0,0-3.44,1.281,4.861,4.861,0,0,0-1.29,3.608V616.7h-3.17v3.7H1222v9.49h3.8V620.4h3.15l0.48-3.7h-3.63v-2.364a2.071,2.071,0,0,1,.37-1.35,1.821,1.821,0,0,1,1.44-.45h1.95v-3.3a20.452,20.452,0,0,0-2.83-.15h0Z" transform="translate(-1203.78 -598.125)"/>
+</svg>

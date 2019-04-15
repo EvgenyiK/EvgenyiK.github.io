@@ -1,0 +1,18 @@
+<svg id="Logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="141" height="28" viewBox="0 0 141 28">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 32.423px;
+        fill: #61e9c2;
+        font-family: Ubuntu;
+        font-weight: 500;
+      }
+
+      .cls-2 {
+        fill: #232323;
+      }
+    </style>
+  </defs>
+  <text id="Shoe_Shop" data-name="Shoe Shop" class="cls-1" transform="translate(36.249 21.178) scale(0.617 0.617)">Sho<tspan class="cls-2">e</tspan> Shop</text>
+  <image id="Vector_Smart_Object" data-name="Vector Smart Object" width="31" height="28" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAcCAYAAACZOmSXAAABl0lEQVRIib1W0VXDMAxUeB2ADegIdALKBMAG7QbtBt0gbAAbUCZoywTpBv7lq2xQ3oHUCNtq3MTm3vNL6iQ+66RTXc0/P44UYkJETTCbGVfGctNgphD5vRpbnn8I3iyAkSIExhw1xjURfZWOXENvpLj0PrlThVZc+ljBSfT/Hjnwzlfk/zZ4SrQhomOOESPfqkIrGb0bBVPtBh4578/esyU7oS9qVrSxyHdMHrPc0M4nG9/HZAfW6t6SXnK/8uZXPL8JvvglHvN9Y5E7HpTZcrqATXJS0VuR94GshTS6c+Q7vlqW64MbiZoMn/uR54xegugk1xuI5R3/gpVRcBU/t8j3KeQi/XSgt8lT76LIgcPAlqqtl0SuLZcLpyZldTiNpwySa5y6ZQp5sYNkl+yCWuXuwH2/CzOvTuo+5PhooX4jBW+qR8eAyn7x0rXwbZlCLlGuOf+Ss1nwZguxlWO/i2vuLiXPWWx/kEL+ylcoALllMzIfg5wDkRr4W9STpvWDFHKcXPRpBrJD/nP+B/ncO4RgjTbnRPQNUrpzxri9HoAAAAAASUVORK5CYII="/>
+</svg>
