@@ -1,0 +1,417 @@
+
+@import "fonts.styl"
+
+body
+  font-family: MyriadPro
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  margin: 0
+  padding: 0
+  overflow-x hidden
+  h2, h3, h4
+   color  #3d6cb0
+   margin 0
+  p
+   color black
+   margin 0
+
+
+
+
+.container
+  display flex
+  margin 77px 60px 97px 60px
+  .left
+    width 507px
+    .first-screen
+      display flex
+      justify-content center
+      flex-direction column
+      .first-screen__circle
+        content ''
+        height 209px
+        width 212px
+        border-radius 50%
+        background-color #3d6cb0
+        margin-top 30px
+        margin-left 119px
+        box-shadow 0 0 0 15px white,
+        0 0 0 18px #3d6cb0
+      .first-screen__title
+        margin-top 39px
+        display flex
+        justify-content center
+        margin-left -50px
+        flex-direction column
+        text-transform uppercase
+        text-align center
+        .title__first
+          font-weight 300
+          font-size 53px
+          margin 0
+          height 100%
+        .title__title
+          font-weight 700
+          font-size 63px
+          height 100%
+          margin 0
+        .title__second
+          font-weight 700
+          font-size 26px
+          height 100%
+          margin 0
+    .second__block
+      display flex
+      margin-top 60px
+      .second__block_name
+        display flex
+        flex-wrap wrap
+        .name__png
+          width 75px
+          height 75px
+          margin-right 13px
+          margin-bottom 16px
+        .name__title
+          text-transform uppercase
+          font-size 42px
+          margin 0
+          margin-top 9px
+          color #3d6cb0
+          &:before
+            display block
+            height 5px
+            width 174px
+            background-color #3d6cb0
+            content ''
+            margin-left 170px
+            position relative
+            top 27px
+    .block__contact
+      margin-top 45px
+      .block__contact_name
+        display flex
+        .contact_png
+          width 75px
+          height 75px
+        .contact__title
+          text-transform uppercase
+          font-size 42px
+          margin 0
+          margin-top 9px
+          color #3d6cb0
+          margin-left 10px
+          &:before
+            display block
+            height 5px
+            width 174px
+            background-color #3d6cb0
+            content ''
+            margin-left 153px
+            position relative
+            top 27px
+            left 20px
+      .contact__info
+        display flex
+        font-size 22px
+        margin-top 35px
+        h3,p
+         margin-bottom 25px
+        p:nth-child(2)
+        p:nth-child(3)
+         margin-bottom 30px
+        .info__left
+         text-transform uppercase
+         width 133px
+    .skills
+      margin-top 15px
+      .skills__name
+        display flex
+        .skills__png
+          width 75px
+          height 75px
+        .skill_title
+          text-transform uppercase
+          font-size 42px
+          margin 0
+          margin-top 9px
+          color #3d6cb0
+          margin-left 10px
+          &:before
+            display block
+            height 5px
+            width 200px
+            background-color #3d6cb0
+            content ''
+            margin-left 140px
+            position relative
+            top 27px
+      .skills__content
+        text-align center
+        font-size 26px
+        text-transform uppercase
+        width 65%
+        margin-left 10%
+        margin-top 25px
+        .dottes
+         display flex
+         .dot
+            content ''
+            height 19px
+            width 19px
+            border-radius 50%
+            background-color #3d6cb0
+            margin-right 10px
+            margin-top 10px
+            &:nth-child(10)
+                background-color #e6e6e6
+            &:nth-child(11)
+             background-color #e6e6e6
+            &:nth-child(12)
+             background-color #e6e6e6
+        .skills__title2
+         margin-top 20px
+        .dottes2
+          display flex
+          .dot
+            content ''
+            height 19px
+            width 19px
+            border-radius 50%
+            background-color #3d6cb0
+            margin-right 10px
+            margin-top 10px
+            &:nth-child(12)
+              background-color #e6e6e6
+        .skills__title3
+          margin-top 20px
+        .dottes3
+          display flex
+          .dot
+            content ''
+            height 19px
+            width 19px
+            border-radius 50%
+            background-color #3d6cb0
+            margin-right 10px
+            margin-top 10px
+            &:nth-child(12)
+              background-color #e6e6e6
+            &:nth-child(11)
+              background-color #e6e6e6
+            &:nth-child(10)
+              background-color #e6e6e6
+            &:nth-child(9)
+              background-color #e6e6e6
+            &:nth-child(8)
+              background-color #e6e6e6
+            &:nth-child(7)
+              background-color #e6e6e6
+        .skills__title4
+          margin-top 20px
+        .dottes4
+          display flex
+          .dot
+            content ''
+            height 19px
+            width 19px
+            border-radius 50%
+            background-color #3d6cb0
+            margin-right 10px
+            margin-top 10px
+            &:nth-child(12)
+              background-color #e6e6e6
+
+
+
+
+
+
+  .right
+    width 655px
+    .block
+      .block__name
+        display flex
+        margin-bottom 33px
+        .name__png
+          width 75px
+          height 75px
+          margin-right 24px
+        .name__title
+          text-transform uppercase
+          font-size 42px
+          margin 0
+          margin-top 9px
+          color #3d6cb0
+          &:before
+            display block
+            height 5px
+            width 323px
+            background-color #3d6cb0
+            content ''
+            margin-left 230px
+            position relative
+            top 27px
+      .block__content
+        display flex
+        margin-left 15px
+        flex-wrap wrap
+        margin-bottom 21px
+        .content__dotted
+          width 20px
+          height 20px
+          display block
+          content ''
+          background-color black
+          border-radius 50%
+        .content__title
+          font-size 26px
+          font-weight 700
+          text-transform uppercase
+          color #3d6cb0
+          margin 0
+          margin-left 24px
+          margin-top -5px
+        .content__title_two
+          font-size 26px
+          margin-left 20px
+          margin-top -5px
+        .content__title_free
+          font-size 26px
+          flex-wrap wrap
+          text-transform uppercase
+          margin-left 44px
+        .content__text
+          margin-left 44px
+          margin-top 5px
+
+    .block__two
+      margin-top 50px
+      .block__name_two
+        display flex
+        margin-bottom 50px
+        .name__png
+          width 75px
+          height 75px
+          margin-right 24px
+        .name__title
+          text-transform uppercase
+          font-size 42px
+          margin 0
+          margin-top 9px
+          color #3d6cb0
+          &:before
+            display block
+            height 5px
+            width 323px
+            background-color #3d6cb0
+            content ''
+            margin-left 230px
+            position relative
+            top 27px
+      .block__content_two
+        display flex
+        margin-left 15px
+        flex-wrap wrap
+        margin-bottom 21px
+        .content__dotted
+          width 20px
+          height 20px
+          display block
+          content ''
+          background-color black
+          border-radius 50%
+        .content__titlepx
+          font-size 26px
+          font-weight 700
+          text-transform uppercase
+          color black
+          margin 0
+          margin-left 24px
+          margin-top -5px
+        .content__title_two
+          font-size 26px
+          margin-left 20px
+          margin-top -5px
+        .content__title_free
+          font-size 26px
+          flex-wrap wrap
+          text-transform uppercase
+          margin-left 44px
+        .content__text
+          margin-left 44px
+          margin-top 5px
+    .software
+      display flex
+      margin-top 53px
+      flex-wrap wrap
+      .software__name
+        display flex
+        margin-bottom 30px
+        .name__png
+          width 75px
+          height 75px
+          margin-right 24px
+        .name__title
+          text-transform uppercase
+          font-size 42px
+          margin 0
+          margin-top 9px
+          color #3d6cb0
+          &:before
+            display block
+            height 5px
+            width 323px
+            background-color #3d6cb0
+            content ''
+            margin-left 230px
+            position relative
+            top 27px
+      .software__left
+        width 43%
+        margin-left 10px
+        text-transform uppercase
+        font-size 26px
+        .progress
+          position: relative
+          width: 100%
+          height: 25px
+          overflow: hidden
+          background: #3d6cb0
+          margin-top 10px
+          margin-bottom 20px
+          .grayback
+            position: relative
+            left: 92%
+            width: 100%
+            height: 100%
+            background-color: #ddd
+          .le
+            left 70%
+          .fe
+            left 56%
+      .software__right
+        width 43%
+        margin-left 80px
+        text-transform uppercase
+        font-size 26px
+        .progress
+          position: relative
+          width: 100%
+          height: 25px
+          overflow: hidden
+          background: #3d6cb0
+          margin-top 10px
+          margin-bottom 20px
+          .grayback
+            position: relative
+            left: 92%
+            width: 100%
+            height: 100%
+            background-color: #ddd
+          .ge
+            left 80%
+          .be
+            left 60%
+
+
+@import "media.styl"
