@@ -1,0 +1,25 @@
+.nike-title{
+  font-weight: bold;
+  color: black;
+  margin-top: 50px;
+}
+.nike-cent{
+  font-size: 20px;
+  margin-top: 18px;
+}
+.carousel-item:hover{
+  width: 201px;
+}
+.style{
+  width: 201px;
+}
+.item-position{
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  width: 201px;
+  height: 300px;
+}
+img.nike-img{
+  box-shadow: 0 0 50px rgba(0,0,0,.5);
+}
