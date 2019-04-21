@@ -12,7 +12,9 @@ import './css/main.css'
 
 // import 'vue'
 // import Vue from 'vue'
-//window.$ =require('jquery')
+import 'jquery'
+import 'jquery-ui'
+import 'ion-rangeslider'
 
 
 
