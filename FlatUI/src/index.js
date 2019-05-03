@@ -12,9 +12,8 @@ import './css/main.css'
 
 // import 'vue'
 // import Vue from 'vue'
-import 'jquery'
-import 'jquery-ui'
-import 'ion-rangeslider'
+
+
 
 
 
